@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <title>MEOW Games</title>
+    <script src="../Scripts/jquery-1.10.2.min.js"></script>
+    <script src="../Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="TableForm">
+        <p>Games</p>
+        <p id="UserName"></p>
+
+        <table id = "Table">
+            
+        </table>
+
+    </div>
+    <div>
+        
+        <label for="PasswordGame" id="PasswordGameLable"><b>Passwoord Game</b></label>
+        <input type="text" name="PasswordGame" id="PasswordGameField" required>
+
+        <input type="button" id="Connect" value="Join" />
+
+        <label for="Name" id="NameLable"><b>Name</b></label>
+        <input type="text" name="Name" id="NameField" required>
+
+        <label for="Password" id="PasswordLable"><b>Passwoord</b></label>
+        <input type="text" name="Password" id="PasswordField" required>
+
+        <input type="button" id="AddGame" value="AddGame" disabled="disabled" />
+
+    </div>
+    <p id="ServerMessage"></p>
+
+    <script src="../signalr/dist/browser/signalr.js"></script>
+    <script src="scriptSearchgame.js"></script>
+</body>

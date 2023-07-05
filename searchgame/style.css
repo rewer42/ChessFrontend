@@ -1,0 +1,29 @@
+#Table
+{
+    width: 400px;
+    height: auto;
+    display: grid;
+    grid-template-columns: minmax(150px, 1.33fr);
+}
+
+#Row:hover
+{
+    background-color: blueviolet;
+}
+#Row
+{
+    background-color: wheat;
+}
+#Cell
+{
+    width: 200px;
+}
+#TableForm
+{
+    height: 50%;
+    margin: 40px;
+}
+#SelectedRow
+{
+    background-color: royalblue;
+}

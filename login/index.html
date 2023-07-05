@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;900&display=swap" rel="stylesheet">
+    <title>Login|ChessPro</title>
+    <script src="../Scripts/jquery-1.10.2.min.js"></script>
+    <script src="../Scripts/jquery.unobtrusive-ajax.min.js"></script>
+</head>
+<body>
+    <div id="menu">
+        <a href="../index.html" id="logo">Chess<span style="color: rgba(141, 114, 225, 1);">Pro</span></h1></a>
+    </div>
+    <div id="LoginArea">
+        <h1 id="LoginTitle">Login</h1>
+        <form id="FormShit">
+
+            <label for="Email" class="Lable" id="EmailLable"><b>Email</b></label>
+            <input type="email" class="Field" name="Email" id="EmailField" required>
+
+            <label for="Password" class="Lable" id="PassLable"><b>Password</b></label>
+            <input type="password" class="Field" name="Password" id="Pass" required>
+        </form>
+        <div class="ContainerHorize">
+            <h2 id="NotHaveAnAccount">Not have an account?</h2>
+            <a href="../registration/" id="RegisterLink">Register</a>
+        </div>
+        <input type="button" id="LoginButton" value="Login"/>
+        <script src="log.js"></script>
+    </div>
+    <div id="border"></div>
+</body>

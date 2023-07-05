@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;900&display=swap');
+
+html
+{
+    width: 100%;
+    height: 100%;
+}
+body
+{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+#menu
+{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 12%;
+}
+#logo {
+    display: inline-block;
+    position: relative;
+    left: 8%;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size:  calc(((100vw + 120vh) / 60));
+    line-height: 44px;
+    color: #000000;
+}
+#LoginArea{
+display: flex;
+position: relative;
+align-items: center; 
+width: calc(65vh + 15vw);
+height: 60vh;
+max-width: 90vw;
+max-height: 130vw;
+
+top: 30px;
+margin-left: auto;
+margin-right: auto;
+flex-direction: column;
+flex-wrap: wrap;
+background: #9747FF;
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+#LoginTitle{
+position: relative;
+width: 100%;
+height: auto;
+
+margin: auto;
+text-align: center;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: calc(((100vw + 120vh) / 40));
+color: #FFFFFF;
+}
+.ContainerHorize{
+display: flex;
+margin-left: auto;
+margin-right: auto;
+flex-direction: row;
+flex-wrap: wrap;
+margin-top: 2%;
+width: 75%;
+height: 8%;
+}
+#NotHaveAnAccount{
+    display: flex;
+    position: relative;
+    width: auto;
+    height: calc(12 * ((100vw + 120vh) / 1600));
+    margin: 1px;
+    margin-right: 10%;
+    
+    white-space: nowrap;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(16 * ((100vw + 100vh) / 1800));
+    line-height: calc(16 * ((100vw + 100vh) / 1800));
+    color: #FFFFFF;
+} 
+#RegisterLink{
+    display: flex;
+    position: relative;
+    height: calc(12 * ((100vw + 120vh) / 1600));
+    margin: 1px;
+    margin-right: 10%;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: calc(16 * ((100vw + 100vh) / 1800));
+    line-height: calc(16 * ((100vw + 100vh) / 1800));
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+#FormShit{
+width: 100%;
+height: 50%;
+
+max-height: 57%;
+
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.Lable{
+position: relative;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: calc(16 * ((100vw + 100vh) / 1800));
+line-height: calc(16 * ((100vw + 100vh) / 1800));
+text-align: center;
+color: #FFFFFF;
+}
+.Field{
+position: relative;
+width: 75%;
+height: 22%;
+margin: auto;
+
+background: #FFFFFF;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 1vh;
+padding-left: 5%;
+border: none;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: calc(16 * ((100vw + 100vh) / 1800));
+line-height: calc(16 * ((100vw + 100vh) / 1800));
+line-height: 29px;
+}
+#ButtonContainer
+{
+    width: 100%;
+    height: 18;
+    position: relative;
+}
+#LoginButton{
+justify-content: center;
+width: calc(50% - 8vw);
+height: calc(6% + 2vw);
+margin: auto;
+
+background: #ffffff;
+border-radius: 10px;
+border:none;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: calc(((80vw + 120vh) / 60));
+color: #9747FF;
+}
+#LoginButton:hover{ 
+    font-size: calc(((80vw + 120vh) / 58));
+}

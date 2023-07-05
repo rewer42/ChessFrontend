@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;900&display=swap');
+   
+html
+{
+    width: 100vw;
+}
+body
+{
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+#menu
+{
+    display: flex;
+    position: relative;
+    flex: 2%;
+    width: 100%;
+    height: 10vh;
+    min-height: 3vw;
+}
+#profileLableBlock
+{
+    height: 20%;
+}
+#profileLable
+{
+    padding-left: 3%;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    font-size:  calc(((100vw + 120vh) / 60));
+    color: #9747FF;
+    line-height: 200%;
+}
+
+@media (min-aspect-ratio: 1/1) 
+{
+    #menuBar
+    {
+        display: grid;
+        width: 62%;
+        height: 100%;
+        grid-template-columns: 25% 25% 25% 25% ;
+        grid-template-rows: 100%;
+    }
+    #droppedMenu
+    {
+        display: none;
+    }
+}
+
+@media (max-aspect-ratio: 1/1) {
+    #menuBar 
+    {
+      display: none;
+    }   
+    #droppedMenu
+    {
+        display: flex;
+        width: 65%;
+        height: 100%;
+    }
+    .container {
+        position: relative;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 2%;
+        margin-left: auto;
+        display: block;
+        cursor: pointer;
+    }
+    .bar1, .bar2, .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #333;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+        transform: rotate(-45deg) translate(-9px, 6px) ;
+    }
+    .change .bar2 {
+        opacity: 0;
+    }
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+        transform: rotate(45deg) translate(-8px, -8px) ;
+    }
+  }
+#logo {
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5%;
+    margin-right: 8%;
+    width: 17%;
+    
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size:  calc(((100vw + 120vh) / 50));
+    color: #000000;
+}
+.MenuButton{
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+
+    cursor:default;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: calc(((100vw + 120vh) / 80));
+    text-decoration:none;
+    color: #9747FF;
+}
+.MenuButton:hover{
+    font-size: calc(((100vw + 120vh) / 75));
+    line-height: 30px;
+    text-shadow: 50mm;
+    }
+    
+.FioletButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0.2%;
+    position: relative;
+    width: 98%;
+    margin-left: 1%;
+    height: 70%;
+    
+    text-decoration:none;
+    background: #9747FF;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: calc(2px + ((100vw + 120vh) / 80));
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.FioletButton:hover{
+    padding: 1% 1%;  
+    margin-left: 0%;
+    font-size: calc(3px + ((100vw + 120vh) / 80));
+}
+@media (min-aspect-ratio: 1/1){
+
+    #MainBlock
+    {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        top: 8vh;
+        height: 40vh;
+        width: 80%;
+    
+    }
+    #Profile
+    {
+        display: grid;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 90%;
+        border-radius: 10px;
+        background: #9747FF;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 100%;
+    
+    }
+    #AvatarPlace
+    {
+        margin: auto;
+        width: calc(10vw + 10vh);
+        height: calc(10vw + 10vh);
+    }
+    #AvatarImage
+    {
+        width: calc(10vw + 10vh);
+        height: calc(10vw + 10vh);
+    
+    }
+    
+}
+@media (max-aspect-ratio: 1/1){
+
+    #MainBlock
+    {
+        position: relative;
+        top: 8vh;
+        height: 80%;
+    
+    }
+#Profile
+{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background: #9747FF;
+    grid-template-columns: 100%;
+    grid-template-rows: 60% 40%;
+
+}
+#AvatarPlace
+{
+    margin: auto;
+    width: calc(10vw + 10vh);
+    height: calc(10vw + 10vh);
+}
+#AvatarImage
+{
+    width: calc(10vw + 10vh);
+    height: calc(10vw + 10vh);
+
+}
+}
+#playerScore
+{
+    position: relative;
+}

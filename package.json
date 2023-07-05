@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@microsoft/signalr": "^7.0.0",
+    "color": "^4.2.3"
+  }
+}

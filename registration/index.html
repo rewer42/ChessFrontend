@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <link rel="stylesheet" type="text/css" href="registration.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;900&display=swap" rel="stylesheet">
+    <title>Registration|ChessPro</title>
+    <script src="../Scripts/jquery-1.10.2.min.js"></script>
+    <script src="../Scripts/jquery.unobtrusive-ajax.min.js"></script>
+</head>
+<body>
+    <div id="menu">
+        <a href="../index.html" id="logo">Chess<span style="color: rgba(141, 114, 225, 1);">Pro</span></h1></a>
+    </div>
+    <div id="RegistrationArea">
+        <h1 id="SignUpTitle">Sign Up</h1>
+        <form id="FormShit">
+            <label for="Name" class="Lable" id="NameLable"><b>Name</b></label>
+            <input type="text" name="Name" class="Field" id="NameField" required>
+
+            <label for="Email" class="Lable" id="EmailLable"><b>Email</b></label>
+            <input type="email" name="Email" class="Field" id="EmailField" required>
+
+            <label for="Password" class="Lable" id="PassLable"><b>Password</b></label>
+            <input type="password" name="Password" class="Field" id="Pass" required>
+
+            <label for="RepeatPassword" class="Lable" id="PassRepeatLable"><b>Repeat Password</b></label>
+            <input type="password" name="RepeatPassword" class="Field" id="PassRepeat" required>
+
+        </form>
+        <div class="ContainerHorize">
+            <h2 id="HaveAnAccount">Already have an account?</h2>
+            <a href="../login/" id="LogInLink">Log In</a>
+        </div>
+        <input type="button" id="RegisterButton" value="Register"/>
+    </div>
+    <script src="scriptRegistration.js"></script>
+
+</body>
+</html>
